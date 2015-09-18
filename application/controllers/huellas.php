@@ -27,6 +27,7 @@ public function muestranosotros()
 	{
 		$this->load->view('nosotros');
 	}
+
 	/*
 public function index()
 	{
