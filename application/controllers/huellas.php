@@ -10,7 +10,28 @@ class Huellas extends CI_Controller {
 	}
 public function index()
 	{
-		$this->load->view('homeapa');
+		$this->session->sess_destroy();
+		$usuario = $this->input->post('usuario');
+		$clave = $this->input->post('clave');
+		
+		$this->load->model('huellas_modelo');
+		$fila = $this->huellas_modelo->buscarmisdatos($usuario);
+		
+		if($fila != null){
+			if($fila->clave == $clave){
+				$data = array(
+					'usuario' => $usuario,
+					'id'	  =>$fila-id,
+					'login'	  => true
+				);
+				$this->session->set_userdata($data);
+			}else{
+				$this->load->view('homeapa');
+			}
+			
+		}else{
+				$this->load->view('homeapa');
+		}
 	}
 public function muestraregistro()
 	{

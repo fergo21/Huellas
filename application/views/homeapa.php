@@ -46,7 +46,11 @@
 				<li><a href="#veterinarias"><img src="/img/vet.png" width="23px" height="19px" /> Veterinarias</a></li>
 				<li><a href="#progreso"><img src="/img/pro.png" width="20px" height="21px" /> Progreso</a></li>
 				<li><a href="#consejos"><img src="/img/cons.png" width="20px" height="23px" /> Consejos</a></li>
+				<?php if($this->session->userdata('login')){ ?>
+				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px"  /> Cerrar sesion</a></li>
+				<?php }else{ ?>
 				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px"  /> Login</a></li>
+				<?php }?>
 				<li><a href="#contacto"><img src="/img/cont.png" width="20px" height="14px" /> Contacto</a></li>
 			</ul>
 		</div>
@@ -54,6 +58,8 @@
 		<div id="cabecera_principal"><img src="/apa/img/APA_principal.png"/><h1>Asociación Protectora de Animales - La Rioja</h1> 
 		<div id="seguinos"><p>Seguinos! <a href="https://www.facebook.com/protectoralarioja"><img id="folow" src="/apa/img/facebook_Logo.png"/></a><a href="https://twitter.com/protectoralr"><img id="folow" src="/apa/img/twitter-icon.png"/></a></p></div>
 		</div>
+		
+		
 		<!-- INICIO -->	
 			<div id="sector"><a name="inicio"></a>
 					<div id="slider">
@@ -125,7 +131,7 @@
 					</form>
 					</div>
 				<div id="cont_ifr_vet">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>
 
 				</div>
 			</div>
@@ -139,11 +145,14 @@
 			</div>
 		<!-- LOGIN -->		
 			<div id="sector"><a name="login"><h1>LOGIN</h1></a>
+			<?php if($this->session->userdata('login')){ ?>
+				
+			<?php }else{ ?>
 				<div id="logo_login">
 					<img src="/apa/img/logo1app.png"/>
 				</div>
 				<div id="info_ingreso">
-					<p>Si querés ser parte de ésta comunidad y colaborar con lo que puedas, podés registrarte a traves de <img src="/apa/img/facebook_Logo.png" width="50px" height="50px" /> o <img src="/apa/img/google+.png" width="50px" height="50px" /> o simplemente registrate en nuestro sistema</p>
+					<p>Si querés ser parte de ésta comunidad y colaborar con lo que puedas, podés registrarte a traves de <img src="/apa/img/facebook_Logo.png" width="50px" height="50px" /> o <img src="/apa/img/google+nuevo.png" width="52px" height="52px" /> o simplemente registrate en nuestro sistema</p>
 					<a href="<?php echo site_url('index.php/Huellas/muestraregistro') ?>"><input id="boton_registrar" type="button" name="btn_registrar" value="REGISTRATE"/></a>
 				</div>
 				<div id="ventana_ingreso">
@@ -184,7 +193,7 @@
 						</form>
 					</div>
 				</div>
-				
+			<?php }?>
 			</div>
 			<!-- CONTACTO -->	
 			<div id="sector"><a name="contacto"><h1>CONTACTO</h1></a>
