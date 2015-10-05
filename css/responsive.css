@@ -1,0 +1,61 @@
+@media screen and (max-width: 1041px){
+	#info_ingreso{
+		display:none;
+	}
+	#ventana_ingreso{
+		width:100%;
+	}
+	#info_nosotros{
+		display:none;
+	}
+	#info_nosotros1{
+		width:90%;
+		margin:30px;
+	}
+}
+@media screen and (max-width: 1078px){
+	#ventana_contacto{
+		width:100%;
+	}
+	#info_contacto{
+		display:none;
+	}
+}
+@media screen and (max-width: 646px){
+	#ventana_contacto #contacto label{
+		font-size:18px;
+	}
+	#ventana_contacto #contacto input{
+		width:90%;
+		height:4%;
+	}
+	#ventana_contacto #contacto textarea{
+		width:90%;
+		height:20%;
+	}
+	#ventana_contacto #contacto button{
+		margin-top:4;
+	}
+}
+@media screen and (max-width: 1323px){
+	#cabecera_principal h1{
+		font-size:25px;
+	}
+}
+@media only screen and (max-height: 481px){
+	#menuizq ul li a {
+		padding: 8px 14px;
+	}
+}
+@media only screen and (max-height: 321px){
+	#menuizq ul li a {
+		padding: 4px 14px;
+	}
+}
+
+@media screen and (max-width:908px){
+	#cont_ifr_vet{
+		width:60%;
+		height:57%;
+	}
+}

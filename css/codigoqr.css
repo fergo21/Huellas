@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#fcdd03;
+}
+#contenedor{
+	width:100%;
+	max-width:1366px;
+	margin:0 auto;
+}
+#cabecera{
+	padding-top:5px;
+	background-color:whitesmoke;
+	width:100%;
+	height:90px;
+	border-bottom:2px solid lightgray;
+}
+#logo{
+	width:125px;
+	margin-left:5%;
+}
+#cabecera #volver{
+	font-size:14px;
+	font-family:arial,sans-serif;
+	width:100px;
+	text-align:center;
+	float:right;
+	margin-right:5%;
+}
+#cabecera #volver a{
+	text-decoration:none;
+	color:black;
+	width:100%;
+}
+#cabecera #volver img{
+	width:75px;
+}
+#cabecera1{
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .9), 0px 3px 0 rgba(0, 0, 0, .1);
+    text-align: center;
+    color: #666;
+    margin: 0 0 30px 0;
+    letter-spacing: 4px;
+    font: normal bold 30px/1 Century Gothic, Helvetica;
+    position: relative;
+    background-color:yellow;
+    width:100%;
+    height:60px;
+    padding-top:30px;
+}
+form{
+	width:100%;
+	text-align:center;
+}
+#cod_qr input{
+	font-size:20px;
+	background-color:white;
+	border:2px solid lightgray;
+	border-radius:6px;
+	width:30%;
+	height:35px;
+	margin-top:3px;
+
+}
+#cod_qr textarea{
+	display:none;
+}
+button{
+	border-radius: 0px;
+	background: grey;
+	width:30%;
+	height:38px;
+	font-size:18px;
+	font-weight: bold;
+	color:white;
+	border:0px;
+	margin-top:15px;
+	transition-duration: 0.5s;
+}
+button:hover{
+	background: whitesmoke;
+	color:black;
+}
+#resultado_qr{
+	width:100%;
+	margin-top:15px;
+	box-sizing:border-box;
+}
+#qr{
+	margin:0 auto;
+	background-color:white;
+	font-family:Arial, sans serif ;
+	font-weight: bold;
+	width:90px;
+	height:90px;
+	text-align:center;
+	border: black 2px dashed; 
+}
+
+#imprimir{
+	width:100%;
+	margin-top:15px;
+	text-align:center;
+}
+#imprimir input{
+	border-radius:20px;
+	background-color:#5fa903 ;
+	width:15%;
+	height:38px;
+	font-size:18px;
+	font-weight: bold;
+	color:white;
+	border:0px;
+	transition-duration: 0.5s;
+}
+#imprimir input:hover{
+	background: white;
+	color:#5fa903;
+	border:3px solid #5fa903;
+}

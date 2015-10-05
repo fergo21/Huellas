@@ -10,29 +10,52 @@ class Huellas extends CI_Controller {
 	}
 public function index()
 	{
-		$this->session->sess_destroy();
-		$usuario = $this->input->post('usuario');
-		$clave = $this->input->post('clave');
-		
-		$this->load->model('huellas_modelo');
-		$fila = $this->huellas_modelo->buscarmisdatos($usuario);
-		
-		if($fila != null){
-			if($fila->clave == $clave){
-				$data = array(
-					'usuario' => $usuario,
-					'id'	  =>$fila-id,
-					'login'	  => true
-				);
-				$this->session->set_userdata($data);
-			}else{
-				$this->load->view('homeapa');
-			}
-			
-		}else{
-				$this->load->view('homeapa');
-		}
+		$misdatos=array(
+					'informacion'=>$this->huellas_modelo->buscarmisdatos(950),
+					);
+		$this->load->view('homeapa', $misdatos);
 	}
+
+public function validar()
+	{
+		if($_POST)
+		{
+			if(isset($_POST['login']))
+			{
+				$datos=array(
+							'usuario' => $this->input->post('usuario'),
+							'clave' => $this->input->post('clave'),
+				);
+				$datos_usuario=$this->huellas_modelo->buscarusuario($datos);
+				//La funcion si encuentra el ussuario trae resultado
+				if($datos_usuario->result())
+				{
+					$this->session->set_userdata('idPersona', $datos_usuario->row()->idPersona);
+					$misdatos=array(
+					'informacion' =>$this->huellas_modelo->buscarmisdatos($datos_usuario->row()->idPersona),
+					);
+				$this->load->view('homeapa', $misdatos);
+				}
+				
+				else
+				{
+					$misdatos=array(
+					'informacion'=>$this->huellas_modelo->buscarmisdatos(950),
+					);
+				
+				$this->load->view('homeapa', $misdatos);
+				}
+				
+			}
+		}
+	
+	}
+public function cerrar_sesion()
+	{
+		$this->session->sess_destroy();
+		redirect('index.php');
+	}
+
 public function muestraregistro()
 	{
 		$data = array(
@@ -47,6 +70,10 @@ public function muestraregistro()
 public function muestranosotros()
 	{
 		$this->load->view('nosotros');
+	}
+public function codigoqr()
+	{
+		$this->load->view('codigo_qr');
 	}
 
 	/*
@@ -170,11 +197,7 @@ public function muestraperfil()
 					);
 		$this->load->view('perfil', $misdatos);
 	}
-public function cerrar_sesion()
-	{
-		$this->session->unset_userdata('idusuario');
-		redirect('index.php');
-	}
+
 public function muestracontenido()
 	{
 	

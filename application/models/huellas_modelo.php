@@ -5,26 +5,27 @@ class Huellas_modelo extends CI_Model {
 		parent::__construct();
 		$this->load->database();
 	}
-public function buscarmisdatos($usuario = '')
-	{
-		$consulta = $this->db->query("SELECT * FROM login WHERE usuario = '". $usuario . "' LIMIT 1" );
-		if($consulta->num_rows() > 0){
-			return $consulta->row();
-		}else{
-			return null;
-		}
-		
-	}
 
-/*
+
+
+public function buscarmisdatos($id)
+	{	
+	
+		$consulta = $this->db->query("select persona.*, login.* from persona, login where persona.idPersona = login.idPersona and persona.idPersona = $id");
+		return $consulta;
+	}
 public function buscarusuario($datos)
 	{
 		$valor=array(
 		'usuario' => $datos['usuario'],
 		'clave' => $datos['clave'],
 		);
+		
 		return $this->db->get_where('login', $valor);
+		
 	}
+
+/*
 
 public function registrar($datos)
 	{

@@ -3,11 +3,11 @@ jQuery(document).ready(function($) {
  
          
 // PARAMETROS OPCIONALES QUE NOS OFRECE EL PLUGIN
-width : 1306,
-height : 663,
+width : 1366,
+height : 667,
  
 // animacion
-animtype : "slide", // ‘fade’ o ‘slide’
+animtype : "fade", // ‘fade’ o ‘slide’
 animduration : 500, // rapidez de transicion
 animspeed : 4000, // delay entre animaciones
 automatic : true, // automatico

@@ -5,38 +5,27 @@
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Asociacion Protectora de Animales La Rioja - Huellas</title>
-	<link href="<?= base_url("css/index.css"); ?>" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" type="text/css" href="<?= base_url("css/slick.css"); ?>" />
-	<link rel="stylesheet" type="text/css" href="<?= base_url("css/slick-theme.css"); ?>"/>
+	<link href="<?= base_url("/css/index.css"); ?>" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick.css"); ?>" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick-theme.css"); ?>"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/responsive.css"); ?>"/>
 	
 	<!-- Para el slider -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?= base_url(); ?>js/jquery.min.js"></script>
 	   <!-- Incluimos la libreria jQuery -->
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <!-- Incluimos el plugin -->
-        <script src="js/bjqs.min.js"></script>
-        <script src="js/script.js"></script>
-		
-		<!--JS de Slider Evento-->
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
- 	 	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  		<script type="text/javascript" src="js/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-      	$('.slider_evento').slick({
-      		dots: true,
-  			infinite: true,
-  			slidesToShow: 3,
-  			slidesToScroll: 3
-		});
-    });
-  </script>
+        <script src="<?= base_url(); ?>js/bjqs.min.js"></script>
+        <script src="<?= base_url(); ?>js/script.js"></script>
+	<!--Fin script slider-->
 	
 </head>
 <body>
 	<div id="contenedor">
-		<!-- MENU PRINCIPAL-->
+	<header id="cabecera_principal"><img src="/apa/img/APA_principal.png"/><h1>Asociación Protectora de Animales - La Rioja</h1> 
+		<div id="seguinos"><p>Seguinos! <a href="https://www.facebook.com/protectoralarioja"><img id="folow" src="/apa/img/facebook_Logo.png"/></a><a href="https://twitter.com/protectoralr"><img id="folow" src="/apa/img/twitter-icon.png"/></a></p></div>
+	</header>
+<!-- MENU PRINCIPAL	-->
 		<div id="menuizq">
 			<ul>
 				<li><a href="#inicio"><img src="/img/home.png" width="20px" height="19px" /> Inicio</a></li>
@@ -46,21 +35,14 @@
 				<li><a href="#veterinarias"><img src="/img/vet.png" width="23px" height="19px" /> Veterinarias</a></li>
 				<li><a href="#progreso"><img src="/img/pro.png" width="20px" height="21px" /> Progreso</a></li>
 				<li><a href="#consejos"><img src="/img/cons.png" width="20px" height="23px" /> Consejos</a></li>
-				<?php if($this->session->userdata('login')){ ?>
-				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px"  /> Cerrar sesion</a></li>
-				<?php }else{ ?>
-				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px"  /> Login</a></li>
-				<?php }?>
+				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px" /> Login</a></li>
 				<li><a href="#contacto"><img src="/img/cont.png" width="20px" height="14px" /> Contacto</a></li>
 			</ul>
 		</div>
 		<div id="central">
-		<div id="cabecera_principal"><img src="/apa/img/APA_principal.png"/><h1>Asociación Protectora de Animales - La Rioja</h1> 
-		<div id="seguinos"><p>Seguinos! <a href="https://www.facebook.com/protectoralarioja"><img id="folow" src="/apa/img/facebook_Logo.png"/></a><a href="https://twitter.com/protectoralr"><img id="folow" src="/apa/img/twitter-icon.png"/></a></p></div>
-		</div>
 		
 		
-		<!-- INICIO -->	
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	INICIO  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->	
 			<div id="sector"><a name="inicio"></a>
 					<div id="slider">
 						<ul class="bjqs">
@@ -73,33 +55,24 @@
 								
 			</div>
 				
-		<!-- NOSOTROS -->					
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	NOSOTROS  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->					
 			<div id="sector"><a name="nosotros"><h1>NOSOTROS</h1></a>
-				<div id="titulo_nosotros"><div>Nuestros valores fundamentales</div><br> 
+				<div id="titulo_nosotros"><div>Nuestros valores fundamentales</div> 
 				<p>CONFIANZA - bla bla bla bla<br> SOLIDARIDAD - bla bla bla bla<br> PARTICIPACION - bla bla bla</p></div>
 				<div id="info_nosotros"><img src="/apa/img/APA1.png"/><p>APA fue fundada en (año) busca la constante participación de la sociedad en la ayuda para protección de los animales. </p></div>
-				<div id="info_nosotros1"><div>Quienes somos</div><p>Formamos parte de APA - Grupo de personas bla bla bla</p><a href="<?php echo site_url('index.php/Huellas/muestranosotros') ?>"><input type="button" name="ver_mas" value="VER MAS"/></a>
+				<div id="info_nosotros1"><div>Quienes somos</div><p>Formamos parte de APA - Grupo de personas bla bla bla</p>
+				<a href="<?php echo site_url('index.php/Huellas/muestranosotros') ?>"><button type="submit" name="ver_mas">VER MAS</button></a>
 				</div>
 			</div>
 		
-		<!-- EVENTOS -->		
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	EVENTOS *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="eventos"><h1>EVENTOS</h1></a>
 				<div id="titulo_contacto"><p>PROXIMOS EVENTOS EN APA</p></div>
 			
-				<div class="slider_evento">
-					<div id="evento1"><h3>EVENTO 1</h3><p>Texto breve del evento que lo sacamos de la base de datos y la pasamos por una funcion</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento2"><h3>EVENTO 2</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento3"><h3>EVENTO 3</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento4"><h3>EVENTO 4</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento5"><h3>EVENTO 5</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento6"><h3>EVENTO 6</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento7"><h3>EVENTO 7</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento8"><h3>EVENTO 8</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				    <div id="evento9"><h3>EVENTO 9</h3><p>Texto breve del evento</p><a href="#" class="leer_mas">Leer más</a></div>
-				</div>
+				
 			</div>
 			
-		<!-- ANIMALES -->	
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	ANIMALES *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="animales"><h1>ANIMALES</h1></a>
 					<div id="enc_menu_a">
 						<a href=""><div id="menu1"><h2>PERROS</h2></div></a>
@@ -115,7 +88,7 @@
 				</div>
 				
 			</div>
-		<!-- VETERINARIAS -->		
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*VETERINARIAS*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="veterinarias"><h1>VETERINARIAS</h1></a>
 				
 			<div id=titulo_contacto><p>BUSCA LA VETERINARIA MAS CERCANA</p></div>
@@ -127,7 +100,7 @@
 							<option value="voluntario">barrio 2</option>
 							<option value="normal">barrio 3</option>
 						</select>
-						<input id="boton_buscar" type="submit" name="buscar" value="BUSCAR"/>				
+						<a href="#"><button type="submit" name="buscar">BUSCAR</button></a>				
 					</form>
 					</div>
 				<div id="cont_ifr_vet">
@@ -135,29 +108,50 @@
 
 				</div>
 			</div>
-		<!-- PROGRESO -->		
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	PROGRESO  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="progreso"><h1>PROGRESO</h1></a>
-				Contenido de eventos
+			erhtt
+				<a href="<?php echo site_url('index.php/Huellas/codigoqr') ?>"><button type="submit" name="ver_mas">VER MAS</button></a>
 			</div>
-		<!-- CONSEJOS -->		
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	CONSEJOS  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="consejos"><h1>CONSEJOS</h1></a>
 				Contenido de eventos
 			</div>
-		<!-- LOGIN -->		
+<!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	LOGIN  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->
 			<div id="sector"><a name="login"><h1>LOGIN</h1></a>
-			<?php if($this->session->userdata('login')){ ?>
+			
+			
+			
+			<?php if(isset($this->session->userdata['idPersona'])):	?> 
+			<div id="perfil" style="border:1px solid black; position:absolute">
+				<?php foreach($informacion->result() as $dato) {?>
+			<h1>BIENVENIDO: 
+					<?php 
+					if($dato->Nombre != ''){
+						echo"$dato->Nombre";
+						?>
+			</h1>
+						<a href="#" target="marco" title="perfil">Ir a perfil</a>
+						<button><a href="<?php echo site_url('index.php/Huellas/cerrar_sesion') ?>" title="cerrarsesion">Cerrar sesion</a></button> 
+						<?php }	?>
+				<?php }?>
+			</div>
+			
 				
-			<?php }else{ ?>
-				<div id="logo_login">
+				<p>
+					<?php echo $this->session->flashdata('mensaje'); ?>
+				</p>
+				<?php else: ?>
+					<div id="logo_login">
 					<img src="/apa/img/logo1app.png"/>
 				</div>
 				<div id="info_ingreso">
 					<p>Si querés ser parte de ésta comunidad y colaborar con lo que puedas, podés registrarte a traves de <img src="/apa/img/facebook_Logo.png" width="50px" height="50px" /> o <img src="/apa/img/google+nuevo.png" width="52px" height="52px" /> o simplemente registrate en nuestro sistema</p>
-					<a href="<?php echo site_url('index.php/Huellas/muestraregistro') ?>"><input id="boton_registrar" type="button" name="btn_registrar" value="REGISTRATE"/></a>
+					<a href="<?php echo site_url('index.php/Huellas/muestraregistro') ?>"><button type="submit" name="btn_registrar">REGISTRATE</button></a>
 				</div>
 				<div id="ventana_ingreso">
 					<div id="cuerpo_registro1">
-						<form action="huellas.php" method="post">
+						<?= form_open('index.php/Huellas/validar') ?>
 							<table>
 								<tr>
 									<td>
@@ -189,11 +183,10 @@
 									</td>
 								</tr>
 							</table>
-										
 						</form>
 					</div>
 				</div>
-			<?php }?>
+				<?php endif; ?>
 			</div>
 			<!-- CONTACTO -->	
 			<div id="sector"><a name="contacto"><h1>CONTACTO</h1></a>
@@ -208,16 +201,16 @@
 						<input type="text" name="email" size="30" required/><br>
 						<label>Mensaje</label><br>
 						<textarea id="mensaje" name="mensaje" placeholder="Escriba aquí" required></textarea><br>
-						<input id="boton_enviar" type="submit" name="enviar" value="ENVIAR"/>				
+						<a href="#"><button type="submit" name="enviar">ENVIAR</button></a>				
 					</form>
 					</div>
 				</div>
 			</div>
-			<div id="pie_principal">
-				<p>Sitio web desarrollado por:</p><img src="/apa/img/g2.png"/>
-			</div>
+			
 		</div>
-		
+	<footer id="pie_principal">
+		<p>&copy;Sitio web desarrollado por:</p><img src="/apa/img/logoG1.png"/>
+	</footer>
 	</div>
 	
 </body>
