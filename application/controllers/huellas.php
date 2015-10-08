@@ -69,11 +69,15 @@ public function muestraregistro()
 	}
 public function muestranosotros()
 	{
-		$this->load->view('nosotros');
+		$this->load->view('quienes_somos');
 	}
 public function codigoqr()
 	{
 		$this->load->view('codigo_qr');
+	}
+public function admin()
+	{
+		$this->load->view('huellas');
 	}
 
 	/*

@@ -5,13 +5,13 @@
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Registro - Asociacion Protectora de Animales La Rioja - Huellas</title>
-	<link href="<?= base_url("css/index.css"); ?>" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>css/registro.css" />
 </head>
 <body>
 	<div id="contenedor">
 	<div id="cabecera">
 		<img id="logo" src="/apa/img/logo2app.png"/>
-		<div id="volver"><a href="<?php echo site_url('index.php') ?>"><img id="ic_volver" src="/apa/img/icono_volver.png"/>
+		<div id="volver"><a href="<?php echo base_url() ?>"><img id="ic_volver" src="/apa/img/icono_volver.png"/>
 		Volver a Inicio</a></div>
 	</div>
 	<div id="cabecera1">

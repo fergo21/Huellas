@@ -5,10 +5,10 @@
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Asociacion Protectora de Animales La Rioja - Huellas</title>
-	<link href="<?= base_url("/css/index.css"); ?>" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/css/index.css" />
 	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick.css"); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick-theme.css"); ?>"/>
-	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/responsive.css"); ?>"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/css/responsive.css"/>
 	
 	<!-- Para el slider -->
 	<script type="text/javascript" src="<?= base_url(); ?>js/jquery.min.js"></script>
@@ -28,15 +28,15 @@
 <!-- MENU PRINCIPAL	-->
 		<div id="menuizq">
 			<ul>
-				<li><a href="#inicio"><img src="/img/home.png" width="20px" height="19px" /> Inicio</a></li>
-				<li><a href="#nosotros"><img src="/img/user.png" width="20px" height="20px" /> Nosotros</a></li>
-				<li><a href="#eventos"><img src="/img/event.png" width="20px" height="20px" /> Eventos</a></li>
-				<li><a href="#animales"><img src="/img/anim.png" width="24px" height="22px" /> Animales</a></li>
-				<li><a href="#veterinarias"><img src="/img/vet.png" width="23px" height="19px" /> Veterinarias</a></li>
-				<li><a href="#progreso"><img src="/img/pro.png" width="20px" height="21px" /> Progreso</a></li>
-				<li><a href="#consejos"><img src="/img/cons.png" width="20px" height="23px" /> Consejos</a></li>
-				<li><a href="#login"><img src="/img/login.png" width="20px" height="22px" /> Login</a></li>
-				<li><a href="#contacto"><img src="/img/cont.png" width="20px" height="14px" /> Contacto</a></li>
+				<li><a href="#inicio"><img src="/apa/img/menu/home.png" width="20px" height="19px" /> Inicio</a></li>
+				<li><a href="#nosotros"><img src="/apa/img/menu/user.png" width="20px" height="20px" /> Nosotros</a></li>
+				<li><a href="#eventos"><img src="/apa/img/menu/event.png" width="20px" height="20px" /> Eventos</a></li>
+				<li><a href="#animales"><img src="/apa/img/menu/anim.png" width="24px" height="22px" /> Animales</a></li>
+				<li><a href="#veterinarias"><img src="/apa/img/menu/vet.png" width="23px" height="19px" /> Veterinarias</a></li>
+				<li><a href="#progreso"><img src="/apa/img/menu/pro.png" width="20px" height="21px" /> Progreso</a></li>
+				<li><a href="#consejos"><img src="/apa/img/menu/cons.png" width="20px" height="23px" /> Consejos</a></li>
+				<li><a href="#login"><img src="/apa/img/menu/login.png" width="20px" height="22px" /> Login</a></li>
+				<li><a href="#contacto"><img src="/apa/img/menu/cont.png" width="20px" height="14px" /> Contacto</a></li>
 			</ul>
 		</div>
 		<div id="central">
@@ -93,19 +93,48 @@
 				
 			<div id=titulo_contacto><p>BUSCA LA VETERINARIA MAS CERCANA</p></div>
 				<div id="busqueda_vet">
-					<form action="homeapa.php" method="post">
+					<form action="http://localhost/apa/#veterinarias" method="post">
 						<label>Selecciona tu Barrio</label><br>
-						<select required>
-							<option value="socio">barrio 1</option>
-							<option value="voluntario">barrio 2</option>
-							<option value="normal">barrio 3</option>
+						<select name="mapa">
+							<option value="cero" selected>Elegi tu zona</option>
+							<option value="zonan">Zona Norte</option>
+							<option value="zonas">Zona Sur</option>
+							<option value="zonac">Zona Centro</option>
+							<option value="zonae">Zona Este</option>
+							<option value="zonao">Zona Oeste</option>
 						</select>
 						<a href="#"><button type="submit" name="buscar">BUSCAR</button></a>				
 					</form>
 					</div>
 				<div id="cont_ifr_vet">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>
-
+				<?php
+				if(isset($_POST['mapa'])){
+					$mapa = $_POST['mapa'];
+					switch($mapa){
+					case "zonan":
+					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kg9J2-yfEiuU" width="640" height="480"></iframe>; <?php
+					break;
+					case "zonas":
+					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe>; <?php
+					break;
+					case "zonac":
+					?>	<iframe src="https://mapsengine.google.com/map/embed?mid=zSXbgoM-Gmak.kFsqN-ZQF4xE" width="640" height="480"></iframe>; <?php
+					break;
+					case "zonae":
+					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe>; <?php
+					break;
+					case "zonao":
+					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kOJKGwmulzVs" width="640" height="480"></iframe>; <?php
+					break;
+					default:
+					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>; <?php
+					}
+				} else {
+					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>; <?php
+				}
+					
+				?>
+			
 				</div>
 			</div>
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	PROGRESO  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
@@ -144,14 +173,14 @@
 				<?php else: ?>
 					<div id="logo_login">
 					<img src="/apa/img/logo1app.png"/>
-				</div>
+					</div>
 				<div id="info_ingreso">
 					<p>Si querés ser parte de ésta comunidad y colaborar con lo que puedas, podés registrarte a traves de <img src="/apa/img/facebook_Logo.png" width="50px" height="50px" /> o <img src="/apa/img/google+nuevo.png" width="52px" height="52px" /> o simplemente registrate en nuestro sistema</p>
 					<a href="<?php echo site_url('index.php/Huellas/muestraregistro') ?>"><button type="submit" name="btn_registrar">REGISTRATE</button></a>
 				</div>
 				<div id="ventana_ingreso">
 					<div id="cuerpo_registro1">
-						<?= form_open('index.php/Huellas/validar') ?>
+						<?= form_open('index.php/Huellas/index') ?>
 							<table>
 								<tr>
 									<td>
@@ -209,7 +238,7 @@
 			
 		</div>
 	<footer id="pie_principal">
-		<p>&copy;Sitio web desarrollado por:</p><img src="/apa/img/logoG1.png"/>
+		<p>Copyright&copy; 2015 - Sitio web desarrollado por:</p><img src="/apa/img/logoG1.png"/>
 	</footer>
 	</div>
 	
