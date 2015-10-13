@@ -1,0 +1,107 @@
+/*Estilo Bandeja HUELLAS */
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color:#ffffff;
+}
+#contenedor{
+	width:100%;
+	max-width:1366px;
+	margin:0 auto;
+}
+#cabecera{
+	padding-top:5px;
+	background-color:whitesmoke;
+	width:100%;
+	height:90px;
+	border-bottom:2px solid #fcdd03;
+}
+#logo{
+	width:125px;
+	margin-left:5%;
+}
+#cabecera #volver{
+	font-size:14px;
+	font-family:arial,sans-serif;
+	width:100px;
+	text-align:center;
+	float:right;
+	margin-right:5%;
+}
+#cabecera #volver a{
+	text-decoration:none;
+	color:black;
+	width:100%;
+}
+#cabecera #volver img{
+	width:75px;
+}
+h1{
+    color: #666;
+    letter-spacing: 4px;
+    font: normal bold 30px/1 Century Gothic, Helvetica;
+    position: absolute;
+    width:100%;
+    text-align:center;
+    margin-top:-60px;
+}
+#menuadmin{
+	background-color:white;
+	float:left;
+	width:20%;
+}
+#menuadmin nav{
+	width:100%;
+	max-width:1000px;
+	background-color:#92856d;
+}
+#menuadmin ul{
+	overflow: hidden;
+	list-style:none;
+}
+#menuadmin nav ul li ul{
+	background-color:whitesmoke;
+}
+#menuadmin nav ul li ul li a{
+	text-decoration:none;
+	color:black;
+}
+#menuadmin nav ul li ul li a:hover{
+	background-color:#92856d;
+	color:white;
+}
+#menuadmin nav ul li{
+	display: block;
+}
+#menuadmin nav ul li a{
+	text-decoration:none;
+	color:#ffffff;
+	padding:20px;
+	display: block;
+	font-family:Arial;
+	transition: 0.5s;
+}
+#menuadmin nav ul li span{
+	margin-right:10px;
+}
+#menuadmin nav ul li a:hover{
+	background-color:whitesmoke;
+	color:black;
+}
+#menuadmin nav ul li a span:hover{
+	width:30px;
+}
+#central{
+	float:left;
+	width:75%;
+	margin-left:2%;
+}
+#central iframe{
+	margin-top:20px;
+	border:0px;
+	width:100%;
+	height:100%;
+	background-color:white;
+}

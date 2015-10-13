@@ -68,23 +68,21 @@
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	EVENTOS *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="eventos"><h1>EVENTOS</h1></a>
 				<div id="titulo_contacto"><p>PROXIMOS EVENTOS EN APA</p></div>
-			
+			<a href="<?php echo site_url('index.php/Huellas/muestraeventos') ?>"><button type="submit" name="ver_mas">VER MAS</button></a>
 				
 			</div>
 			
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	ANIMALES *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="animales"><h1>ANIMALES</h1></a>
 					<div id="enc_menu_a">
-						<a href=""><div id="menu1"><h2>PERROS</h2></div></a>
-						<a href=""><div id="menu2"><h2>GATOS</h2></div></a>
-						<a href=""><div id="menu3"><h2>OTROS ANIMALES</h2></div></a>
-						<a href=""><div id="menu4"><h2>REFUGIO</h2></div></a>
+						<a href="<?php echo site_url('index.php/Huellas/muestraperros') ?>" target="marco"><div id="menu1"><h2>PERROS</h2></div></a>
+						<a href="<?php echo site_url('index.php/Huellas/muestragatos') ?>" target="marco"><div id="menu2"><h2>GATOS</h2></div></a>
+						<a href="<?php echo site_url('index.php/Huellas/muestraotrosanimales') ?>" target="marco"><div id="menu3"><h2>OTROS ANIMALES</h2></div></a>
+						<a href="<?php echo site_url('index.php/Huellas/muestrarefugio') ?>" target="marco"><div id="menu4"><h2>REFUGIO</h2></div></a>
 					</div>
 					
 				<div id="cont_ifr">
-					<iframe>
-						<p>Your browser does not support iframes.</p>
-					</iframe>
+					<iframe id="marco" src="<?php echo site_url('index.php/Huellas/muestraperros') ?>" name="marco" >	</iframe>
 				</div>
 				
 			</div>
@@ -139,7 +137,19 @@
 			</div>
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	PROGRESO  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="progreso"><h1>PROGRESO</h1></a>
-			erhtt
+			<div id="busqueda_vet">
+					<form action="http://localhost/apa/#veterinarias" method="post">
+						<label>Selecciona un animal</label><br>
+						<select name="mapa">
+							<option value="cero" selected>Elige un animal</option>
+							<option value="zonan">cargar por php</option>
+							<option value="zonan">cargar por php</option>
+							<option value="zonan">cargar por php</option>
+							<option value="zonan">cargar por php</option>
+						</select>
+						<a href="#"><button type="submit" name="buscar">BUSCAR</button></a>				
+					</form>
+					</div>
 				<a href="<?php echo site_url('index.php/Huellas/codigoqr') ?>"><button type="submit" name="ver_mas">VER MAS</button></a>
 			</div>
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	CONSEJOS  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		

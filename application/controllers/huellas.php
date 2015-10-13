@@ -79,7 +79,54 @@ public function admin()
 	{
 		$this->load->view('huellas');
 	}
-
+public function muestraperros()
+	{
+		$this->load->view('perros');
+	}
+public function muestragatos()
+	{
+		$this->load->view('gatos');
+	}
+public function muestraotrosanimales()
+	{
+		$this->load->view('otros_animales');
+	}
+public function muestrarefugio()
+	{
+		$this->load->view('refugio');
+	}
+public function muestraeventos()
+	{
+		$this->load->view('eventos');
+	}
+public function muestrabandejahuellas()
+	{
+		$this->load->view('bandejaHuellas');
+	}
+public function ABManimales()
+	{
+		$this->load->view('abmanimales');
+	}
+public function ABMeventos()
+	{
+		$this->load->view('abmeventos');
+	}
+public function ABMadoptantes()
+	{
+		$this->load->view('abmadoptantes');
+	}
+public function ABMsocios()
+	{
+		$this->load->view('abmsocios');
+	}
+public function ABMusuarios()
+	{
+		$this->load->view('abmusuarios');
+	}
+public function Notificaciones()
+	{
+		$this->load->view('notificaciones');
+	}
 	/*
 public function index()
 	{

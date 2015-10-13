@@ -3,39 +3,12 @@
     padding:0;
 }
 body{
-    background-color:#fcdd03;
+    background-color:white;
 }
 #contenedor{
 	width:100%;
 	max-width:1366px;
 	margin:0 auto;
-}
-#cabecera{
-	padding-top:5px;
-	background-color:whitesmoke;
-	width:100%;
-	height:90px;
-	border-bottom:2px solid lightgray;
-}
-#logo{
-	width:125px;
-	margin-left:5%;
-}
-#cabecera #volver{
-	font-size:14px;
-	font-family:arial,sans-serif;
-	width:100px;
-	text-align:center;
-	float:right;
-	margin-right:5%;
-}
-#cabecera #volver a{
-	text-decoration:none;
-	color:black;
-	width:100%;
-}
-#cabecera #volver img{
-	width:75px;
 }
 #cabecera1{
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .9), 0px 3px 0 rgba(0, 0, 0, .1);

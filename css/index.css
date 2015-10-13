@@ -758,6 +758,9 @@ text-align: right;
 	font-family:arial,sans-serif;
 	color:darkslategray;
 }
+#enc_menu_a h2{
+	margin-top:18px;
+}
 #enc_menu_a #menu1{
 	margin-left:5.5%;
 	background-color:#e1e1e1;
@@ -984,6 +987,7 @@ text-align: right;
 	margin-left:10px;
 	width:69%;
 	height:71%;
+	
 }
 #cont_ifr_vet iframe{
 	border:0px;
@@ -991,6 +995,7 @@ text-align: right;
 	background:white;
 	width:100%;
 	height:100%;
+	
 }
 /*fin estilo veterinarias*/
 
