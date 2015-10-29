@@ -1,61 +1,272 @@
-@media screen and (max-width: 1041px){
+/*Pantallas menores a 1920*/
+	
+/*Pantallas menores a 1280*/
+	
+	#busqueda_vet{
+		width: 20%;
+		margin-left: 4%;
+	}
 	#info_ingreso{
-		display:none;
+		width:40%;
 	}
 	#ventana_ingreso{
-		width:100%;
-	}
-	#info_nosotros{
-		display:none;
-	}
-	#info_nosotros1{
-		width:90%;
-		margin:30px;
-	}
-}
-@media screen and (max-width: 1078px){
-	#ventana_contacto{
-		width:100%;
+		width:40%;
 	}
 	#info_contacto{
-		display:none;
+		width:40%;
 	}
-}
-@media screen and (max-width: 646px){
+	#ventana_contacto{
+		width:40%;
+	}
+/*Pantallas menores a 1024*/
+@media screen and (max-width: 1024px){
+	
+	#cabecera_principal h1{
+    font-size:22px;
+	}
+	#cuerpo_registro1 #boton_ingresar {
+		width:50%;
+	}
+	#cont_ifr{
+		margin-top:-29;
+	}
+/*Pantallas menores a 768*/
+@media screen and (max-width: 768px){
+	
+	#cabecera_principal h1{
+    font-size:20px;
+	}
+	p.bjqs-caption{
+		font-size:20px;
+	}
+	#titulo_nosotros div{
+		font-size:17px;
+		width:75%;
+	}
+	#titulo_nosotros p{
+		width:75%;
+	}
+	#info_nosotros{
+		margin-top:25px;
+		margin-left:0%;
+		width:100%;
+	}
+	#info_nosotros img{
+		width:20%;
+		border:3px solid black;
+	}
+	#info_nosotros p{
+		padding:2 46px;
+		width:80%;
+		font-size:15px;
+	}
+	#info_nosotros1{
+		width:100%;
+	}
+	#info_nosotros1 div{
+		text-align:center;
+		width:350px;
+		margin-left:14%;
+	}
+	#info_nosotros1 p{
+		width:100%;
+		text-align:center;
+		font-size:15px;
+	}
+	#info_nosotros1 button{
+		margin-top:20px;
+	}
+	#titulo_contacto p{
+		width:90%;
+		font-size:30px;
+		margin-left:9%;
+	}
+	#enc_menu_a{
+		font-size:12px;
+	}
+	#enc_menu_a #menu1{
+		margin-left:8%;
+	}
+	#cont_ifr{
+		margin-top:14;
+	}
+	#cont_ifr #marco{
+		margin-left:8%;
+	}
+	#busqueda_vet{
+		width:80%;
+		margin-left:14%;
+	}
+	#cont_ifr_vet{
+		width:87%;
+		margin-left:10.5%;
+		height:40%;
+	}
+	#logo_login img{
+		width:90px;
+	}
+	#info_ingreso{
+		border-left:0;
+		text-align:center;
+		margin-left:11%;
+		width:85%;
+		padding:0 0 10px;
+		border-bottom:3px solid black;
+	}
+	#ventana_ingreso{
+		border-left:0;
+		width:100%;
+		padding:0;
+	}
+	#ventana_ingreso #cuerpo_registro1{
+		width:80%;
+		margin-left:19%;
+	}
+	#info_contacto{
+		width:100%;
+		margin-left:0;
+	}
+	#info_contacto p{
+		width:80%;
+		margin-left:13%;
+		text-align:center;
+		border-bottom:3px solid black;
+	}
+	#ventana_contacto{
+		width:100%;
+		margin-left:0;
+	}
+	#ventana_contacto #contacto{
+		width:80%;
+		margin-left:13%;
+	}
 	#ventana_contacto #contacto label{
 		font-size:18px;
 	}
 	#ventana_contacto #contacto input{
-		width:90%;
-		height:4%;
+		height:30px;
 	}
 	#ventana_contacto #contacto textarea{
-		width:90%;
-		height:20%;
+		height:70px;
 	}
 	#ventana_contacto #contacto button{
-		margin-top:4;
+		margin-left:35%;
 	}
-}
-@media screen and (max-width: 1323px){
-	#cabecera_principal h1{
-		font-size:25px;
-	}
-}
-@media only screen and (max-height: 481px){
+/*Pantallas menores 480*/
+@media screen and (max-width: 480px){
+	
 	#menuizq ul li a {
-		padding: 8px 14px;
+		padding: 10px 14px;
+	}
+	#cabecera_principal h1{
+    font-size:20px;
+	}
+	p.bjqs-caption{
+	font: normal 20px/1 Century Gothic, Helvetic;
+	display:block;
+	width:96%;
+	padding:2%;
+	position:absolute;
+	}
+	#titulo_nosotros div{
+		font-size:14px;
+	}
+	#titulo_nosotros p{
+		font-size:12px;
+	}
+	#info_nosotros1 div{
+		font-size:25px;
+		width:100%;
+		margin-left:0;
+		margin-top:-45px;
+		border-bottom:2px solid black;
+	}
+	#info_nosotros1 p{
+		width:70%;
+		margin-left:20%;
+	}
+	/*Animales falta*/
+	#busqueda_vet{
+		margin-left:16%;
+	}
+	#busqueda_vet label{
+		font-size:20px;
+	}
+	#busqueda_vet select{
+		height:30px;
+		font-size:15px;
+		margin-top:5px;
+	}
+	#busqueda_vet button{
+		margin-top:5px;
+		font-size:15px;
+		height:30px;
+	}
+	#cont_ifr_vet{
+		height:150;
+		width:80%;
+		margin-left:16%;
+		margin-top:5px;
+	}
+	#info_ingreso{
+		width:80%;
+		margin-left:15%;
+	}
+	#info_ingreso p{
+		margin-top:-10;
+		font-size:12px;
+	}
+	#info_ingreso p img{
+		width:25px;
+		height:25px;
+	}#info_ingreso button{
+		font-size:15px;
+		height:30px;
+	}
+	#ventana_ingreso{
+		margin-top:0;
+	}
+	#ventana_ingreso #cuerpo_registro1 label{
+		font-size:15px;
+	}
+	#ventana_ingreso #cuerpo_registro1 input{
+		height:30px;
+	}
+	#ventana_ingreso #cuerpo_registro1 #ckbox{
+		margin-top:0;
+	}
+	#ventana_ingreso #cuerpo_registro1 #check{
+		width:15;
+		margin-top:-3px;
+	}
+	#ventana_ingreso #cuerpo_registro1 label{
+		font-size:13px;
+	}
+	#ventana_ingreso #cuerpo_registro1 #boton_ingresar{
+		font-size:15px;
+		margin-top:0;
+	}
+	#info_contacto{
+		display:none;
+	}
+	#ventana_contacto #contacto{
+		margin-left:16%;
+	}
+	#ventana_contacto #contacto textarea{
+		height:30px;
+	}
+	#ventana_contacto #contacto button{
+		font-size:15px;
+		height:30px;
 	}
 }
-@media only screen and (max-height: 321px){
+/*Pantallas menores a 320*/
+@media screen and (max-width: 320px){
+	
 	#menuizq ul li a {
 		padding: 4px 14px;
 	}
-}
-
-@media screen and (max-width:908px){
-	#cont_ifr_vet{
-		width:60%;
-		height:57%;
+	#cabecera_principal h1{
+    font-size:15px;
 	}
 }

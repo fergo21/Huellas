@@ -5,45 +5,54 @@
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Asociacion Protectora de Animales La Rioja - Huellas</title>
-	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/css/index.css" />
-	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick.css"); ?>" />
-	<link rel="stylesheet" type="text/css" href="<?= base_url("/css/slick-theme.css"); ?>"/>
-	<link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/css/responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="<?= base_url()?>css/index.css" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url()?>menu_principal/iconos_menu.css" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url()?>css/responsive.css"/>
 	
 	<!-- Para el slider -->
-	<script type="text/javascript" src="<?= base_url(); ?>js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 	   <!-- Incluimos la libreria jQuery -->
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <!-- Incluimos el plugin -->
-        <script src="<?= base_url(); ?>js/bjqs.min.js"></script>
-        <script src="<?= base_url(); ?>js/script.js"></script>
+        <script src="<?= base_url()?>js/bjqs.min.js"></script>
+        <script src="<?= base_url()?>js/script.js"></script>
 	<!--Fin script slider-->
-	
+	<!--Efecto deslizar-->
+		<script src="<?= base_url()?>js/deslizar.js"></script>
 </head>
 <body>
-	<div id="contenedor">
-	<header id="cabecera_principal"><img src="/apa/img/APA_principal.png"/><h1>Asociación Protectora de Animales - La Rioja</h1> 
-		<div id="seguinos"><p>Seguinos! <a href="https://www.facebook.com/protectoralarioja"><img id="folow" src="/apa/img/facebook_Logo.png"/></a><a href="https://twitter.com/protectoralr"><img id="folow" src="/apa/img/twitter-icon.png"/></a></p></div>
-	</header>
-<!-- MENU PRINCIPAL	-->
+	<!-- MENU PRINCIPAL	-->
 		<div id="menuizq">
-			<ul>
-				<li><a href="#inicio"><img src="/apa/img/menu/home.png" width="20px" height="19px" /> Inicio</a></li>
-				<li><a href="#nosotros"><img src="/apa/img/menu/user.png" width="20px" height="20px" /> Nosotros</a></li>
-				<li><a href="#eventos"><img src="/apa/img/menu/event.png" width="20px" height="20px" /> Eventos</a></li>
-				<li><a href="#animales"><img src="/apa/img/menu/anim.png" width="24px" height="22px" /> Animales</a></li>
-				<li><a href="#veterinarias"><img src="/apa/img/menu/vet.png" width="23px" height="19px" /> Veterinarias</a></li>
-				<li><a href="#progreso"><img src="/apa/img/menu/pro.png" width="20px" height="21px" /> Progreso</a></li>
-				<li><a href="#consejos"><img src="/apa/img/menu/cons.png" width="20px" height="23px" /> Consejos</a></li>
-				<li><a href="#login"><img src="/apa/img/menu/login.png" width="20px" height="22px" /> Login</a></li>
-				<li><a href="#contacto"><img src="/apa/img/menu/cont.png" width="20px" height="14px" /> Contacto</a></li>
+			<ul class="top-nav">
+				<li><a href="#inicio"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="#nosotros"><span class="icon-user"></span>Nosotros</a></li>
+				<li><a href="#eventos"><span class="icon-calendar"></span>Eventos</a></li>
+				<li><a href="#animales"><span class="icon-an"></span>Animales</a></li>
+				<li><a href="#veterinarias"><span class="icon-aid-kit"></span>Veterinarias</a></li>
+				<li><a href="#progreso"><span class="icon-stats-dots"></span>Progreso</a></li>
+				<li><a href="#consejos"><span class="icon-light-bulb"></span>Consejos</a></li>
+				<?php if(isset($this->session->userdata['idPersona'])){	?> 
+				<?php foreach($informacion->result() as $dato) {?>
+				<?php if($dato->Nombre != ''){ ?>
+				<li><a href="#login"><span class="icon-logo1app"></span><?php echo $dato->Nombre ?></a></li>
+				<?php }	?>
+				<?php }?>				
+				<?php } else { ?>
+				<li><a href="#login"><span class="icon-logo1app"></span>Login</a></li>
+				<?php }?>
+				<li><a href="#contacto"><span class="icon-envelop"></span>Contacto</a></li>
 			</ul>
 		</div>
+	<div id="contenedor">
+	<header id="cabecera_principal"><img src="/apa/img/APA_principal.png"/><h1>Asociación Protectora de Animales - La Rioja</h1> 
+		<!--<p>Seguinos!</p><a href="https://www.facebook.com/protectoralarioja"><img id="folow" src="/apa/img/facebook_Logo.png"/></a><a href="https://twitter.com/protectoralr"><img id="folow" src="/apa/img/twitter-icon.png"/></a>-->
+	</header>
+
 		<div id="central">
 		
 		
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	INICIO  *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->	
-			<div id="sector"><a name="inicio"></a>
+			<div id="sector_inicio"><a name="inicio"></a>
 					<div id="slider">
 						<ul class="bjqs">
 							<li><img src="/apa/img/imagen1.jpg" title="Vacuná, esterilizá y adoptá"/></li>
@@ -68,8 +77,11 @@
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	EVENTOS *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
 			<div id="sector"><a name="eventos"><h1>EVENTOS</h1></a>
 				<div id="titulo_contacto"><p>PROXIMOS EVENTOS EN APA</p></div>
-			<a href="<?php echo site_url('index.php/Huellas/muestraeventos') ?>"><button type="submit" name="ver_mas">VER MAS</button></a>
-				
+			<h1>Eventos Publicados</h1>
+			
+				<?php foreach($eventos->result() as $datos){
+					echo'<h1>'.$datos->Titulo.'</h1>';					
+				}?>
 			</div>
 			
 <!-- *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	ANIMALES *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	 -->		
@@ -110,25 +122,25 @@
 					$mapa = $_POST['mapa'];
 					switch($mapa){
 					case "zonan":
-					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kg9J2-yfEiuU" width="640" height="480"></iframe>; <?php
+					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kg9J2-yfEiuU" width="640" height="480"></iframe> <?php
 					break;
 					case "zonas":
-					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe>; <?php
+					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe> <?php
 					break;
 					case "zonac":
-					?>	<iframe src="https://mapsengine.google.com/map/embed?mid=zSXbgoM-Gmak.kFsqN-ZQF4xE" width="640" height="480"></iframe>; <?php
+					?>	<iframe src="https://mapsengine.google.com/map/embed?mid=zSXbgoM-Gmak.kFsqN-ZQF4xE" width="640" height="480"></iframe> <?php
 					break;
 					case "zonae":
-					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe>; <?php
+					?>	<iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kIgpxHtKK9pI" width="640" height="480"></iframe> <?php
 					break;
 					case "zonao":
-					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kOJKGwmulzVs" width="640" height="480"></iframe>; <?php
+					?> <iframe src="https://www.google.com/maps/d/embed?mid=zSXbgoM-Gmak.kOJKGwmulzVs" width="640" height="480"></iframe> <?php
 					break;
 					default:
-					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>; <?php
+					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe> <?php
 					}
 				} else {
-					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe>; <?php
+					?> <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d66118.50285804726!2d-66.88374297175429!3d-29.430966389635685!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1442516954884" width="800" height="600" frameborder="0" style="border:0" allowfullscreen ></iframe> <?php
 				}
 					
 				?>
@@ -161,26 +173,14 @@
 			
 			
 			
-			<?php if(isset($this->session->userdata['idPersona'])):	?> 
-			<div id="perfil" style="border:1px solid black; position:absolute">
-				<?php foreach($informacion->result() as $dato) {?>
-			<h1>BIENVENIDO: 
-					<?php 
-					if($dato->Nombre != ''){
-						echo"$dato->Nombre";
-						?>
-			</h1>
-						<a href="#" target="marco" title="perfil">Ir a perfil</a>
-						<button><a href="<?php echo site_url('index.php/Huellas/cerrar_sesion') ?>" title="cerrarsesion">Cerrar sesion</a></button> 
-						<?php }	?>
-				<?php }?>
-			</div>
-			
-				
-				<p>
-					<?php echo $this->session->flashdata('mensaje'); ?>
-				</p>
-				<?php else: ?>
+			<?php if(isset($this->session->userdata['idPersona'])){	?> 
+				<div id="perfil" style="border:1px solid black; position:absolute">
+							<a name="bandeja" href="<?php echo site_url('index.php/Huellas/validar_admin') ?>">Bandeja Huellas</a>
+							<a href="#" title="perfil">Ir a perfil</a>
+							<button><a href="<?php echo site_url('index.php/Huellas/cerrar_sesion') ?>" title="cerrarsesion">Cerrar sesion</a></button> 
+							
+				</div>				
+			<?php } else {?>
 					<div id="logo_login">
 					<img src="/apa/img/logo1app.png"/>
 					</div>
@@ -190,7 +190,7 @@
 				</div>
 				<div id="ventana_ingreso">
 					<div id="cuerpo_registro1">
-						<?= form_open('index.php/Huellas/index') ?>
+						<?= form_open('index.php/Huellas/validar') ?>
 							<table>
 								<tr>
 									<td>
@@ -225,7 +225,7 @@
 						</form>
 					</div>
 				</div>
-				<?php endif; ?>
+				<?php } ?>
 			</div>
 			<!-- CONTACTO -->	
 			<div id="sector"><a name="contacto"><h1>CONTACTO</h1></a>
@@ -248,7 +248,7 @@
 			
 		</div>
 	<footer id="pie_principal">
-		<p>Copyright&copy; 2015 - Sitio web desarrollado por:</p><img src="/apa/img/logoG1.png"/>
+		<p>&copy; 2015 - Sitio web desarrollado por:</p><img src="/apa/img/logoG1.png"/>
 	</footer>
 	</div>
 	

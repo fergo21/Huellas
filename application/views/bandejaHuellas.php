@@ -12,10 +12,9 @@
 	<div id="contenedor">
 	<div id="cabecera">
 		<img id="logo" src="/apa/img/logo2app.png"/> <h1>Sistema de Gestion de Sitio Web APA</h1>
-		<div id="volver"><a href="<?php echo base_url() ?>"><img id="ic_volver" src="/apa/img/icono_volver.png"/>
-		Volver a Inicio</a></div>
+		<div id="volver"><a href="<?php echo site_url('index.php/Huellas/validar') ?>"><span class="icon-circle-left"></span>Volver a Inicio</a></div>
 	</div>
-	
+		<!--***	MENU DEL ADMINISTRADOR DEL SISTEMA ***-->
 		<header id="menuadmin">
 			<nav>
 				<ul>
@@ -31,11 +30,24 @@
 					</li>
 					<li><a href="<?php echo site_url('index.php/Huellas/configuraciones') ?>" target="marco" ><span class="icon-cogs"></span>Configuraciones</a></li>
 					<li><a href="<?php echo site_url('index.php/Huellas/codigoqr') ?>" target="marco" ><span class="icon-qrcode"></span>Codigo QR</a></li>
+				<?php if(isset($this->session->userdata['idPersona'])){	?> 
+					<?php foreach($informacion->result() as $dato) {?>
+					<?php if($dato->Nombre != ''){ ?>
+						<li><a><span class="icon-users"></span><?php echo $dato->Nombre ?></a>
+							<ul>
+								<li><a href="<?php echo site_url('index.php/Huellas/cerrar_sesion') ?>" title="cerrarsesion">Cerrar sesion</a></li> 
+							</ul>
+						</li>
+						<?php }	?>
+					<?php }?>				
+				<?php }?>
 				</ul>
 			</nav>
 		</header>
+		<!--*** CONTENIDO QUE MUESTRA CADA OPCION DEL MENU ***-->
 		<div id="central">
-			<iframe name="marco" width="100%" height="100%"></iframe>
+		
+			<iframe src="<?php echo site_url('index.php/Huellas/Notificaciones') ?>" name="marco" width="100%" height="100%"></iframe>
 		</div>
 	</div>
 </body>

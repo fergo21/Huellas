@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?8522aj');
-	src:url('fonts/icomoon.eot?8522aj#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?8522aj') format('truetype'),
-		url('fonts/icomoon.woff?8522aj') format('woff'),
-		url('fonts/icomoon.svg?8522aj#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?wefwhc');
+	src:url('fonts/icomoon.eot?wefwhc#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?wefwhc') format('truetype'),
+		url('fonts/icomoon.woff?wefwhc') format('woff'),
+		url('fonts/icomoon.svg?wefwhc#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,6 +26,12 @@
 .icon-notifications:before {
 	content: "\e24a";
 }
+.icon-trash:before {
+	content: "\e809";
+}
+.icon-new-message:before {
+	content: "\e80a";
+}
 .icon-evernote:before {
 	content: "\e805";
 }
@@ -39,7 +45,7 @@
 	content: "\e806";
 }
 .icon-users:before {
-	content: "\e807";
+	content: "\e808";
 }
 .icon-user-tie:before {
 	content: "\e802";
@@ -49,5 +55,8 @@
 }
 .icon-sphere:before {
 	content: "\e804";
+}
+.icon-circle-left:before {
+	content: "\e807";
 }
 

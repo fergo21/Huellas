@@ -20,7 +20,7 @@
 
 	<div id="medio">
 	<div id="parrafo"><h4>JUNTOS SOMOS APA</h4><p>- una asociacion comprometida con la proteccion de los animales, blablabalbala Quien no lo haria? (El "organigrama" sigue abajo)</p></div>
-		 
+		 <!--MUESTRA IMAGEN DE LAS PERSONAS A CARGO DE LA ORGANIZACION-->
 		<div id="foto_personas">
 			<div id="foto1"><img src="/apa/img/smeyer.png"/><h3>SILVIA MEYER</h3><p>Presidenta APA</p></div>
 			<div id="foto1"><img src="/apa/img/usuario-contacto.png"/><h3>NOMBRE</h3><p>Vice presidente APA</p></div>

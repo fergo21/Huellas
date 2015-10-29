@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\xampp\htdocs\apa\huellas.clpprj">
-	<settings><PM_URL><![CDATA[http://localhost/sartic/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/sartic/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\xampp\htdocs\apa\application\views\about.php;C:\xampp\htdocs\apa\application\views\admin.php;C:\xampp\htdocs\apa\application\views\contact.php;C:\xampp\htdocs\apa\application\views\gcont.php;C:\xampp\htdocs\apa\application\views\home.php;C:\xampp\htdocs\apa\application\views\login.php;C:\xampp\htdocs\apa\application\views\modal.php;C:\xampp\htdocs\apa\application\views\perfil.php;C:\xampp\htdocs\apa\application\views\regexit.php;C:\xampp\htdocs\apa\application\views\registrar.php;C:\xampp\htdocs\apa\application\views\sup-admin.php;C:\xampp\htdocs\apa\application\views\welcome_message.php;C:\xampp\htdocs\apa\css\Codelobster0.php;C:\xampp\htdocs\apa\css\demo.css;C:\xampp\htdocs\sym\application\controllers\Codelobster0.php;C:\xampp\htdocs\sym\application\views\bandeja;C:\xampp\htdocs\sym\application\views\bandeja\admin_correos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_escuelas.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_insumos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos_usuario.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos_usuario2.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_proveedores.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_tecnicos.php;C:\xampp\htdocs\sym\application\views\bandeja\asistente.php;C:\xampp\htdocs\sym\application\views\bandeja\backup.php;C:\xampp\htdocs\sym\application\views\bandeja\backup_exito.php;C:\xampp\htdocs\sym\application\views\bandeja\bandeja_principal.php;C:\xampp\htdocs\sym\application\views\bandeja\bandeja_principal_usuario.php;C:\xampp\htdocs\sym\application\views\bandeja\cerrarsession.php;C:\xampp\htdocs\sym\application\views\bandeja\database.php;C:\xampp\htdocs\sym\application\views\bandeja\default.php;C:\xampp\htdocs\sym\application\views\bandeja\generaDOC.php;C:\xampp\htdocs\sym\application\views\bandeja\habilitar_tecnicos.php;C:\xampp\htdocs\sym\application\views\bandeja\informacion_destino.php;C:\xampp\htdocs\sym\application\views\bandeja\novedades.php;C:\xampp\htdocs\sym\application\views\bandeja\opciones.php;C:\xampp\htdocs\sym\application\views\bandeja\ver_pedidos_usuarios.php;C:\xampp\htdocs\sym\application\views\login;C:\xampp\htdocs\sym\application\views\login\loginmal.php;C:\xampp\htdocs\sym\application\views\login\regexito.php;C:\xampp\htdocs\sym\application\views\login\registro.php;C:\xampp\htdocs\sym\application\views\login\sartic.php;C:\xampp\htdocs\sym\application\views\modal.php;C:\xampp\htdocs\sym\css\modal.css;C:\xampp\htdocs\sym\css\modal1.css;E:\xampp\www\sartic\application\controllers\Codelobster0.php;E:\xampp\www\sartic\application\views\bandeja\Codelobster0.php;E:\xampp\www\sartic\application\views\bandeja\actualiza_escuela.php;E:\xampp\www\sartic\application\views\bandeja\reporteexcel2.php;E:\xampp\www\sartic\css\admin_tecnico22.css;E:\xampp\www\sartic\css\asistente.css;E:\xampp\www\sartic\php\excel-ext.php;E:\xampp\www\sartic\php\excel.php;"/><added value=""/><codestructure version="4.3">
+	<settings><PM_URL><![CDATA[http://localhost/sartic/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/sartic/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\xampp\htdocs\apa\application\views\about.php;C:\xampp\htdocs\apa\application\views\admin.php;C:\xampp\htdocs\apa\application\views\contact.php;C:\xampp\htdocs\apa\application\views\gcont.php;C:\xampp\htdocs\apa\application\views\home.php;C:\xampp\htdocs\apa\application\views\login.php;C:\xampp\htdocs\apa\application\views\modal.php;C:\xampp\htdocs\apa\application\views\perfil.php;C:\xampp\htdocs\apa\application\views\reg_exito.php;C:\xampp\htdocs\apa\application\views\regexit.php;C:\xampp\htdocs\apa\application\views\registrar.php;C:\xampp\htdocs\apa\application\views\sup-admin.php;C:\xampp\htdocs\apa\application\views\welcome_message.php;C:\xampp\htdocs\apa\css\Codelobster0.php;C:\xampp\htdocs\apa\css\demo.css;C:\xampp\htdocs\sym\application\controllers\Codelobster0.php;C:\xampp\htdocs\sym\application\views\bandeja;C:\xampp\htdocs\sym\application\views\bandeja\admin_correos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_escuelas.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_insumos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos_usuario.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_pedidos_usuario2.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_proveedores.php;C:\xampp\htdocs\sym\application\views\bandeja\admin_tecnicos.php;C:\xampp\htdocs\sym\application\views\bandeja\asistente.php;C:\xampp\htdocs\sym\application\views\bandeja\backup.php;C:\xampp\htdocs\sym\application\views\bandeja\backup_exito.php;C:\xampp\htdocs\sym\application\views\bandeja\bandeja_principal.php;C:\xampp\htdocs\sym\application\views\bandeja\bandeja_principal_usuario.php;C:\xampp\htdocs\sym\application\views\bandeja\cerrarsession.php;C:\xampp\htdocs\sym\application\views\bandeja\database.php;C:\xampp\htdocs\sym\application\views\bandeja\default.php;C:\xampp\htdocs\sym\application\views\bandeja\generaDOC.php;C:\xampp\htdocs\sym\application\views\bandeja\habilitar_tecnicos.php;C:\xampp\htdocs\sym\application\views\bandeja\informacion_destino.php;C:\xampp\htdocs\sym\application\views\bandeja\novedades.php;C:\xampp\htdocs\sym\application\views\bandeja\opciones.php;C:\xampp\htdocs\sym\application\views\bandeja\ver_pedidos_usuarios.php;C:\xampp\htdocs\sym\application\views\login;C:\xampp\htdocs\sym\application\views\login\loginmal.php;C:\xampp\htdocs\sym\application\views\login\regexito.php;C:\xampp\htdocs\sym\application\views\login\registro.php;C:\xampp\htdocs\sym\application\views\login\sartic.php;C:\xampp\htdocs\sym\application\views\modal.php;C:\xampp\htdocs\sym\css\modal.css;C:\xampp\htdocs\sym\css\modal1.css;E:\xampp\www\sartic\application\controllers\Codelobster0.php;E:\xampp\www\sartic\application\views\bandeja\Codelobster0.php;E:\xampp\www\sartic\application\views\bandeja\actualiza_escuela.php;E:\xampp\www\sartic\application\views\bandeja\reporteexcel2.php;E:\xampp\www\sartic\css\admin_tecnico22.css;E:\xampp\www\sartic\css\asistente.css;E:\xampp\www\sartic\php\excel-ext.php;E:\xampp\www\sartic\php\excel.php;"/><added value=""/><codestructure version="4.3">
 		<phptree>
 			<treenode node="APPPATH;PHP:PHP Word;C:\xampp\htdocs\apa\index.php;f10;181;17;181;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -7320,111 +7320,277 @@
 				<treenode node="V;PHP:Var Name;C:\xampp\htdocs\apa\application\libraries\PHPExcel\Shared\JAMA\EigenvalueDecomposition.php;f9;48;11;48;;;;vposarray;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Huellas;PHP:Class Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f0;2;1;304;;;;vpos;;vCI_Controller;;c;;r;;d36,2;;b0,0;;m">
+			<treenode node="Huellas;PHP:Class Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f0;2;1;464;;;;vpos;;vCI_Controller;;c;;r;;d36,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f8;4;2;9;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;7;7;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ABMadoptantes;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;113;2;116;;;;vpos;;v;;r;;d1,114;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;115;7;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ABMadoptantes;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;147;2;150;;;;vpos;;v;;r;;d1,148;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;149;7;149;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ABManimales;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;105;2;108;;;;vpos;;v;;r;;d1,106;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;107;7;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ABManimales;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;136;2;142;;;;vpos;;v;;r;;d1,137;;b1,0;;m">
+					<treenode node="listaanimales;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;138;16;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f17;139;22;139;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ABMeventos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;109;2;112;;;;vpos;;v;;r;;d1,110;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;111;7;111;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ABMeventos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;143;2;146;;;;vpos;;v;;r;;d1,144;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;145;7;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ABMsocios;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;117;2;120;;;;vpos;;v;;r;;d1,118;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;119;7;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ABMsocios;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;151;2;155;;;;vpos;;v;;r;;d1,152;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;154;7;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ABMusuarios;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;121;2;124;;;;vpos;;v;;r;;d1,122;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;123;7;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ABMusuarios;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;157;2;164;;;;vpos;;v;;r;;d1,158;;b1,0;;m">
+					<treenode node="listapersonas;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;159;16;159;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f17;160;22;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;77;2;80;;;;vpos;;v;;r;;d1,78;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;79;7;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="admin;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;108;2;111;;;;vpos;;v;;r;;d1,109;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;110;7;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="cerrar_sesion;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;52;2;56;;;;vpos;;v;;r;;d1,53;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;54;7;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="agregar_animal;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;241;2;267;;;;vpos;;v;;r;;d1,242;;b1,0;;m">
+					<treenode node="castracion;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;252;13;252;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="color;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f14;260;20;260;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;254;7;254;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="edad;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;245;7;245;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="foto;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;251;7;251;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nombre;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;244;9;244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="observacion;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;250;14;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="pelaje;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;246;9;246;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sexo;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;248;7;248;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="tamaño;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;247;9;247;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f14;244;19;244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="codigoqr;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;73;2;76;;;;vpos;;v;;r;;d1,74;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;75;7;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="agregar_persona;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;170;2;185;;;;vpos;;v;;r;;d1,171;;b1,0;;m">
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;172;7;172;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f16;173;21;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;10;2;16;;;;vpos;;v;;r;;d1,11;;b1,0;;m">
-					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;12;11;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="baja_persona;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;187;2;195;;;;vpos;;v;;r;;d1,188;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f29;187;32;187;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f20;13;25;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="listapersonas;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;190;16;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="muestrabandejahuellas;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;101;2;104;;;;vpos;;v;;r;;d1,102;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;103;7;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;189;7;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestraeventos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;97;2;100;;;;vpos;;v;;r;;d1,98;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;99;7;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="cerrar_sesion;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;83;2;87;;;;vpos;;v;;r;;d1,84;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;85;7;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestragatos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;85;2;88;;;;vpos;;v;;r;;d1,86;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;87;7;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="codigoqr;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;104;2;107;;;;vpos;;v;;r;;d1,105;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;106;7;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestranosotros;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;69;2;72;;;;vpos;;v;;r;;d1,70;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;71;7;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;11;2;18;;;;vpos;;v;;r;;d1,12;;b1,0;;m">
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;13;11;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f20;14;25;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestraotrosanimales;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;89;2;92;;;;vpos;;v;;r;;d1,90;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;91;7;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ListadoPersonas;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;227;2;233;;;;vpos;;v;;r;;d1,228;;b1,0;;m">
+					<treenode node="listapersonas;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;229;16;229;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f17;230;22;230;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestraperros;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;81;2;84;;;;vpos;;v;;r;;d1,82;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;83;7;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ListadoPersonas2;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;234;2;240;;;;vpos;;v;;r;;d1,235;;b1,0;;m">
+					<treenode node="listapersonas;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;236;16;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f17;237;22;237;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestrarefugio;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;93;2;96;;;;vpos;;v;;r;;d1,94;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;95;7;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="modificar_personas;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;201;2;225;;;;vpos;;v;;r;;d1,202;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;203;10;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;207;7;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;205;5;205;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f8;205;13;205;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="muestraregistro;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;58;2;68;;;;vpos;;v;;r;;d1,59;;b1,0;;m">
-					<treenode node="captcha;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f3;66;11;66;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="muestra_modificar_personas;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;196;2;200;;;;vpos;;v;;r;;d1,197;;b1,0;;mid;;p">
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;198;7;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;60;7;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f43;196;46;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f3;67;8;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="Notificaciones;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;125;2;128;;;;vpos;;v;;r;;d1,126;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;127;7;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f22;198;27;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="validar;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;18;2;51;;;;vpos;;v;;r;;d1,19;;b1,0;;m">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;20;11;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="muestrabandejahuellas;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;132;2;135;;;;vpos;;v;;r;;d1,133;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;134;7;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;24;10;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="muestraeventos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;128;2;131;;;;vpos;;v;;r;;d1,129;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;130;7;130;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="datos_usuario;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;28;18;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="muestragatos;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;116;2;119;;;;vpos;;v;;r;;d1,117;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;118;7;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;33;14;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="muestranosotros;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;100;2;103;;;;vpos;;v;;r;;d1,101;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;102;7;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f20;25;25;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="muestraotrosanimales;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;120;2;123;;;;vpos;;v;;r;;d1,121;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;122;7;122;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="muestraperros;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;112;2;115;;;;vpos;;v;;r;;d1,113;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;114;7;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="muestrarefugio;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;124;2;127;;;;vpos;;v;;r;;d1,125;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;126;7;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="muestraregistro;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;89;2;99;;;;vpos;;v;;r;;d1,90;;b1,0;;m">
+					<treenode node="captcha;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f3;97;11;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;91;7;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f3;98;8;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="Notificaciones;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;165;2;168;;;;vpos;;v;;r;;d1,166;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f2;167;7;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="registrar;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;268;2;288;;;;vpos;;v;;r;;d1,269;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;271;11;271;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f3;273;12;273;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f16;274;21;274;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="validar;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;20;2;56;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;22;11;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;26;10;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="datos_usuario;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;30;18;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;36;14;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f20;27;25;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="validar_admin;PHP:Function Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f7;57;2;81;;;;vpos;;v;;r;;d1,58;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;59;11;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;63;10;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f5;71;14;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f18;64;23;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="traeadmin;PHP:Var Name;C:\xampp\htdocs\apa\application\controllers\huellas.php;f4;67;14;67;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="Huellas_modelo;PHP:Class Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f0;2;1;100;;;;vpos;;vCI_Model;;c;;r;;d38,2;;b0,0;;m">
+			<treenode node="Huellas_modelo;PHP:Class Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f0;2;1;171;;;;vpos;;vCI_Model;;c;;r;;d38,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f1;3;2;6;;;;vpos;;v;;r;;d24,3;;b0,0;;m">
-				</treenode>
-				<treenode node="buscarmisdatos;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;10;2;15;;;;vpos;;v;;r;;d1,11;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f31;10;34;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;5;7;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="buscarusuario;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;16;2;25;;;;vpos;;v;;r;;d1,17;;b1,0;;mdatos;;p">
+				<treenode node="agregar_animal;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;61;2;64;;;;vpos;;v;;r;;d1,62;;b1,0;;mdato;;p">
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f31;61;36;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;63;7;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="agregar_persona;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;38;2;41;;;;vpos;;v;;r;;d1,39;;b1,0;;mdato;;p">
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f32;38;37;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;40;7;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="bajar_persona;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;45;2;49;;;;vpos;;v;;r;;d1,46;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f30;45;33;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;47;7;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="buscaranimales;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;66;2;70;;;;vpos;;v;;r;;d1,67;;b1,0;;m">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;68;11;68;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f14;68;19;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="buscarmisdatos;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;10;2;14;;;;vpos;;v;;r;;d1,11;;b1,0;;mid;;p">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;12;11;12;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f31;10;34;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f14;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="buscarpersonas;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;26;2;30;;;;vpos;;v;;r;;d1,27;;b1,0;;m">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;28;11;28;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f14;28;19;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="buscarusuario;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;16;2;24;;;;vpos;;v;;r;;d1,17;;b1,0;;mdatos;;p">
 					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f30;16;36;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f9;23;14;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="valor;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;18;8;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="modificar_usuario;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;56;2;60;;;;vpos;;v;;r;;d1,57;;b1,0;;mid;;pdato;;p">
+					<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f39;56;44;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f34;56;37;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;58;7;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="registrar;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;71;2;96;;;;vpos;;v;;r;;d1,72;;b1,0;;mdatos;;p">
+					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f26;71;32;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;87;5;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="resultado;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;85;12;85;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;81;7;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="valor;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;73;8;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="trae_usuario;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;50;2;55;;;;vpos;;v;;r;;d1,51;;b1,0;;mid;;p">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;53;11;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f29;50;32;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;52;7;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="traer_eventos;PHP:Function Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f7;32;2;36;;;;vpos;;v;;r;;d1,33;;b1,0;;m">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f2;34;11;34;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\models\huellas_modelo.php;f14;34;19;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -22738,13 +22904,15 @@
 			</treenode>
 			<treenode node="_doctypes;PHP:Var Name;C:\xampp\htdocs\apa\application\config\doctypes.php;f0;2;10;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f13;108;19;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\apa\application\views\abmanimales.php;f12;21;18;21;;C:\xampp\htdocs\apa\application\views\modificarusuarios.php;f12;15;18;15;;C:\xampp\htdocs\apa\application\views\abmusuarios.php;f12;22;18;22;;C:\xampp\htdocs\apa\application\views\homeapa.php;f13;118;19;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="active_group;PHP:Var Name;C:\xampp\htdocs\apa\application\config\database.php;f0;47;13;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="active_record;PHP:Var Name;C:\xampp\htdocs\apa\application\config\database.php;f0;48;14;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="alertabtn;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f9;29;19;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="animales;PHP:Var Name;C:\xampp\htdocs\apa\application\views\abmanimales.php;f19;103;28;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="apartado;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\asistente.php;f8;39;17;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22782,11 +22950,13 @@
 			</treenode>
 			<treenode node="config;PHP:Var Name;C:\xampp\htdocs\apa\application\config\migration.php;f0;10;7;10;;C:\xampp\htdocs\apa\application\config\config.php;f0;16;7;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="correo;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f11;21;18;21;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f11;21;18;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f40;48;47;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="correo;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f40;48;47;48;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f11;21;18;21;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f11;21;18;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="correos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f18;48;26;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f44;165;49;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="dato;PHP:Var Name;C:\xampp\htdocs\apa\application\views\abmanimales.php;f42;103;47;103;;C:\xampp\htdocs\apa\application\views\Codelobster0.php;f42;25;47;25;;C:\xampp\htdocs\apa\application\views\listadoPersonas.php;f42;25;47;25;;C:\xampp\htdocs\apa\application\views\bandejaHuellas.php;f45;33;50;33;;C:\xampp\htdocs\apa\application\views\homeapa.php;f44;37;49;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f40;79;46;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="datosuser;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f50;104;60;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22806,9 +22976,11 @@
 			</treenode>
 			<treenode node="error;PHP:Var Name;C:\xampp\htdocs\apa\application\libraries\PHPExcel\Shared\JAMA\utils\Error.php;f0;16;6;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="escuela;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f14;21;22;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f41;20;49;20;;C:\xampp\htdocs\apa\application\views\bandeja\admin_escuelas.php;f41;47;49;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="escuela;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f14;21;22;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_escuelas.php;f41;47;49;47;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f41;20;49;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="escuelas;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f18;20;27;20;;C:\xampp\htdocs\apa\application\views\bandeja\admin_escuelas.php;f18;47;27;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="escuelas;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_escuelas.php;f18;47;27;47;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f18;20;27;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="eventos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f18;79;26;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="EXT;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f1;123;5;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22826,11 +22998,11 @@
 			</treenode>
 			<treenode node="idusuario;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario2.php;f56;27;66;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="image;PHP:Var Name;C:\xampp\htdocs\apa\application\views\registro.php;f35;55;41;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="image;PHP:Var Name;C:\xampp\htdocs\apa\application\views\registro.php;f35;56;41;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="IN;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f1;212;4;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="informacion;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f18;165;30;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="informacion;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandejaHuellas.php;f19;33;31;33;;C:\xampp\htdocs\apa\application\views\homeapa.php;f18;37;30;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="insumo;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f40;69;47;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22846,7 +23018,7 @@
 			</treenode>
 			<treenode node="login;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f18;42;24;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="mapa;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f5;109;10;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="mapa;PHP:Var Name;C:\xampp\htdocs\apa\application\views\homeapa.php;f5;119;10;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="mensaje;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f58;9;66;9;;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f49;38;57;38;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario2.php;f58;10;66;10;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario.php;f58;10;66;10;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos.php;f58;10;66;10;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f57;9;65;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22854,13 +23026,13 @@
 			</treenode>
 			<treenode node="method;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f1;264;8;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="midato;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f40;12;47;12;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f39;43;46;43;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f39;43;46;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="midato;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f40;12;47;12;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f39;43;46;43;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f39;43;46;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="midatologin;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f38;42;50;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="mimes;PHP:Var Name;C:\xampp\htdocs\apa\application\config\mimes.php;f0;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f16;43;25;43;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f16;43;25;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal.php;f16;43;25;43;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f16;43;25;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="misrecursos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f18;116;30;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22880,15 +23052,17 @@
 			</treenode>
 			<treenode node="pedidos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\generaDOC.php;f18;71;26;71;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario2.php;f18;25;26;25;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario.php;f18;25;26;25;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos.php;f18;25;26;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="personas;PHP:Var Name;C:\xampp\htdocs\apa\application\views\Codelobster0.php;f19;25;28;25;;C:\xampp\htdocs\apa\application\views\modificarusuarios.php;f94;22;103;22;;C:\xampp\htdocs\apa\application\views\listadoPersonas.php;f19;25;28;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="platforms;PHP:Var Name;C:\xampp\htdocs\apa\application\config\user_agents.php;f0;12;10;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="proveedor;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_proveedores.php;f44;39;54;39;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f44;17;54;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="proveedores;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_proveedores.php;f18;39;30;39;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f18;17;30;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="recurso;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f42;49;50;49;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f42;53;50;53;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f41;31;49;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="recurso;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f42;49;50;49;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f41;31;49;31;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f42;53;50;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="recursos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f19;49;28;49;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f19;53;28;53;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f18;31;27;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="recursos;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f19;49;28;49;;C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php;f18;31;27;31;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f19;53;28;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="recursos_usuarios;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f18;104;36;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -22912,19 +23086,19 @@
 			</treenode>
 			<treenode node="system_path;PHP:Var Name;C:\xampp\htdocs\apa\index.php;f1;58;13;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tarea;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\novedades.php;f38;14;44;14;;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f39;95;45;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="tarea;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f39;95;45;95;;C:\xampp\htdocs\apa\application\views\bandeja\novedades.php;f38;14;44;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tareas;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\novedades.php;f17;14;24;14;;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f18;95;25;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="tareas;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f18;95;25;95;;C:\xampp\htdocs\apa\application\views\bandeja\novedades.php;f17;14;24;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\cerrarsession.php;f1;1;6;1;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f68;19;73;19;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario.php;f55;42;60;42;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos.php;f55;42;60;42;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f49;23;54;23;;C:\xampp\htdocs\apa\application\views\homeapa.php;f18;163;23;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="this;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\cerrarsession.php;f1;1;6;1;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos_usuario.php;f55;42;60;42;;C:\xampp\htdocs\apa\application\views\bandeja\admin_pedidos.php;f55;42;60;42;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f49;23;54;23;;C:\xampp\htdocs\apa\application\views\bandeja\bandeja_principal_usuario.php;f68;19;73;19;;C:\xampp\htdocs\apa\application\views\bandejaHuellas.php;f19;32;24;32;;C:\xampp\htdocs\apa\application\views\homeapa.php;f19;36;24;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UNI;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f1;157;5;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="URI;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f1;164;5;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="usuario;PHP:Var Name;C:\xampp\htdocs\apa\application\views\login\sartic.php;f5;20;13;20;;C:\xampp\htdocs\apa\application\views\login\registro.php;f5;38;13;38;;C:\xampp\htdocs\apa\application\views\bandeja\ver_pedidos_usuarios.php;f41;19;49;19;;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f18;12;26;12;;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f14;20;22;20;;C:\xampp\htdocs\apa\application\views\bandeja\habilitar_tecnicos.php;f41;21;49;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f41;13;49;13;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f41;15;49;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="usuario;PHP:Var Name;C:\xampp\htdocs\apa\application\views\login\sartic.php;f5;20;13;20;;C:\xampp\htdocs\apa\application\views\login\registro.php;f5;38;13;38;;C:\xampp\htdocs\apa\application\views\bandeja\ver_pedidos_usuarios.php;f41;19;49;19;;C:\xampp\htdocs\apa\application\views\bandeja\opciones.php;f18;12;26;12;;C:\xampp\htdocs\apa\application\views\bandeja\informacion_destino.php;f14;20;22;20;;C:\xampp\htdocs\apa\application\views\bandeja\habilitar_tecnicos.php;f41;21;49;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f41;15;49;15;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f41;13;49;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="usuarios;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\ver_pedidos_usuarios.php;f18;19;27;19;;C:\xampp\htdocs\apa\application\views\bandeja\habilitar_tecnicos.php;f18;21;27;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f18;13;27;13;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f18;15;27;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="usuarios;PHP:Var Name;C:\xampp\htdocs\apa\application\views\bandeja\ver_pedidos_usuarios.php;f18;19;27;19;;C:\xampp\htdocs\apa\application\views\bandeja\habilitar_tecnicos.php;f18;21;27;21;;C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php;f18;15;27;15;;C:\xampp\htdocs\apa\application\views\bandeja\admin_tecnicos.php;f18;13;27;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="x;PHP:Var Name;C:\xampp\htdocs\apa\system\core\CodeIgniter.php;f3;273;5;273;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -27867,7 +28041,7 @@
 			<treenode node="Zc;JS:JS Var Name;C:\xampp\htdocs\apa\js\jquery.min.js;f25373;3;25375;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</jstree>
-		<file name="C:\xampp\htdocs\apa\huellas.clpprj" crc="-298335708"/>
+		<file name="C:\xampp\htdocs\apa\huellas.clpprj" crc="1692515011"/>
 		<file name="C:\xampp\htdocs\apa\user_guide\tutorial\static_pages.html" crc="1471382325"/>
 		<file name="C:\xampp\htdocs\apa\user_guide\tutorial\news_section.html" crc="153795556"/>
 		<file name="C:\xampp\htdocs\apa\user_guide\tutorial\index.html" crc="-2040447009"/>
@@ -28214,25 +28388,29 @@
 		<file name="C:\xampp\htdocs\apa\application\views\bandeja\admin_insumos.php" crc="-1929014219"/>
 		<file name="C:\xampp\htdocs\apa\application\views\bandeja\admin_escuelas.php" crc="-1730370784"/>
 		<file name="C:\xampp\htdocs\apa\application\views\bandeja\admin_correos.php" crc="1329399957"/>
-		<file name="C:\xampp\htdocs\apa\application\views\registro.php" crc="-386740323"/>
+		<file name="C:\xampp\htdocs\apa\application\views\registro.php" crc="209326056"/>
 		<file name="C:\xampp\htdocs\apa\application\views\refugio.php" crc="111413522"/>
-		<file name="C:\xampp\htdocs\apa\application\views\quienes_somos.php" crc="-1229319956"/>
+		<file name="C:\xampp\htdocs\apa\application\views\quienes_somos.php" crc="-535574963"/>
 		<file name="C:\xampp\htdocs\apa\application\views\perros.php" crc="1479499881"/>
 		<file name="C:\xampp\htdocs\apa\application\views\otros_animales.php" crc="1706391567"/>
-		<file name="C:\xampp\htdocs\apa\application\views\huellas.php" crc="358158580"/>
-		<file name="C:\xampp\htdocs\apa\application\views\homeapa.php" crc="-332813387"/>
+		<file name="C:\xampp\htdocs\apa\application\views\notificaciones.php" crc="-754637517"/>
+		<file name="C:\xampp\htdocs\apa\application\views\modificarpersonas.php" crc="-1366487489"/>
+		<file name="C:\xampp\htdocs\apa\application\views\listadoPersonas2.php" crc="565070181"/>
+		<file name="C:\xampp\htdocs\apa\application\views\listadoPersonas.php" crc="-380915517"/>
+		<file name="C:\xampp\htdocs\apa\application\views\huellas.php" crc="-1287579536"/>
+		<file name="C:\xampp\htdocs\apa\application\views\homeapa.php" crc="-248532501"/>
 		<file name="C:\xampp\htdocs\apa\application\views\gatos.php" crc="-1761435190"/>
 		<file name="C:\xampp\htdocs\apa\application\views\eventos.php" crc="627217788"/>
-		<file name="C:\xampp\htdocs\apa\application\views\codigo_qr.php" crc="-312950172"/>
-		<file name="C:\xampp\htdocs\apa\application\views\bandejaHuellas.php" crc="2001503748"/>
-		<file name="C:\xampp\htdocs\apa\application\views\abmusuarios.php" crc="37197614"/>
+		<file name="C:\xampp\htdocs\apa\application\views\codigo_qr.php" crc="-278697138"/>
+		<file name="C:\xampp\htdocs\apa\application\views\bandejaHuellas.php" crc="284390993"/>
+		<file name="C:\xampp\htdocs\apa\application\views\abmusuarios.php" crc="120023140"/>
 		<file name="C:\xampp\htdocs\apa\application\views\abmsocios.php" crc="1181906753"/>
 		<file name="C:\xampp\htdocs\apa\application\views\abmeventos.php" crc="1387377136"/>
-		<file name="C:\xampp\htdocs\apa\application\views\abmanimales.php" crc="1113955088"/>
+		<file name="C:\xampp\htdocs\apa\application\views\abmanimales.php" crc="1892622041"/>
 		<file name="C:\xampp\htdocs\apa\application\views\abmadoptantes.php" crc="-1724286100"/>
 		<file name="C:\xampp\htdocs\apa\application\third_party\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\apa\application\models\index.html" crc="-1574479902"/>
-		<file name="C:\xampp\htdocs\apa\application\models\huellas_modelo.php" crc="-1862550513"/>
+		<file name="C:\xampp\htdocs\apa\application\models\huellas_modelo.php" crc="417288351"/>
 		<file name="C:\xampp\htdocs\apa\application\logs\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\apa\application\libraries\PHPExcel\Writer\PDF\tcPDF.php" crc="238397053"/>
 		<file name="C:\xampp\htdocs\apa\application\libraries\PHPExcel\Writer\PDF\mPDF.php" crc="1762820894"/>
@@ -28437,7 +28615,7 @@
 		<file name="C:\xampp\htdocs\apa\application\core\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\apa\application\controllers\welcome.php" crc="-1821039607"/>
 		<file name="C:\xampp\htdocs\apa\application\controllers\index.html" crc="-1574479902"/>
-		<file name="C:\xampp\htdocs\apa\application\controllers\huellas.php" crc="1044053066"/>
+		<file name="C:\xampp\htdocs\apa\application\controllers\huellas.php" crc="241870205"/>
 		<file name="C:\xampp\htdocs\apa\application\controllers\Codelobster0.php" crc="1604745361"/>
 		<file name="C:\xampp\htdocs\apa\application\config\user_agents.php" crc="-484381080"/>
 		<file name="C:\xampp\htdocs\apa\application\config\smileys.php" crc="-749249654"/>

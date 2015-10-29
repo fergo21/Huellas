@@ -22,13 +22,13 @@
 				<div class="titulo"><img src="/apa/img/icono_ventana.jpg"/> Login</div>
 				<div id="llave"><img src="/apa/img/llave.png"/></div>
 				<div id="cuerpo_registro1">
-				<form action="huellas.php" method="post">
-				<label>Usuario</label>
-				<input type="text" name="usuario" size="30"/><br>
-				<label>Clave</label>
-				<input type="password" name="clave" size="30"/><br>
-				<br>
-				<input type="submit" name="login" value="Verificar"/>				
+				<?= form_open('index.php/Huellas/validar_admin') ?>
+					<label>Usuario</label>
+					<input type="text" name="usuario" size="30"/><br>
+					<label>Clave</label>
+					<input type="password" name="clave" size="30"/><br>
+					<br>
+					<input type="submit" name="login" value="Ingresar"/>				
 				</form>
 				</div>
 			</div>

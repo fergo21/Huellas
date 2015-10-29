@@ -4,6 +4,7 @@
 	padding:0;
 }
 body{
+	
 	background-color:#ffffff;
 }
 #contenedor{
@@ -23,29 +24,34 @@ body{
 	margin-left:5%;
 }
 #cabecera #volver{
-	font-size:14px;
+	margin-top:-40px;
+	font-size:20px;
 	font-family:arial,sans-serif;
-	width:100px;
+	width:170px;
 	text-align:center;
 	float:right;
-	margin-right:5%;
+	margin-right:1%;
 }
 #cabecera #volver a{
 	text-decoration:none;
-	color:black;
-	width:100%;
+	color:darkgray;	
 }
-#cabecera #volver img{
-	width:75px;
+#cabecera #volver a:hover{
+	text-decoration:none;
+	color:black;	
+}
+#cabecera #volver span{
+	font-size:16px;
+	margin-right:10px;
 }
 h1{
+    text-align: center;
     color: #666;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font: normal bold 30px/1 Century Gothic, Helvetica;
-    position: absolute;
     width:100%;
-    text-align:center;
-    margin-top:-60px;
+    margin-top:-57px;
+    height:60px;
 }
 #menuadmin{
 	background-color:white;
@@ -65,6 +71,7 @@ h1{
 	background-color:whitesmoke;
 }
 #menuadmin nav ul li ul li a{
+
 	text-decoration:none;
 	color:black;
 }
@@ -80,7 +87,7 @@ h1{
 	color:#ffffff;
 	padding:20px;
 	display: block;
-	font-family:Arial;
+	font-family:ubuntu,sans-serif;
 	transition: 0.5s;
 }
 #menuadmin nav ul li span{

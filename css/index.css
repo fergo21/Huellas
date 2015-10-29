@@ -10,19 +10,30 @@ body{
 	width:100%;
 	max-width:1366px;
 	margin:0 auto;
+	padding-left:40px;
+	box-sizing: border-box;
 }
 #cabecera_principal{
-	height:80px;
-	width:100%;
+	padding:0.1px;
 	background:white;
 	z-index:1;
+	text-align:center;
 }
 #cabecera_principal img{
-	margin-left:5%;
-	float:left;
-	width:85px;
+	width:80px;
 	margin-top:10px;
 }
+#cabecera_principal h1{
+	margin:20px;
+	letter-spacing:1.5px;
+	text-shadow:none;
+	display: inline=block;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+/*
 #cabecera_principal h1{
 	margin-left:2%;
 	margin-bottom:0px;
@@ -36,28 +47,16 @@ body{
 	width:57%;
 	text-align:left;
 }
-#cabecera_principal #seguinos{
-	text-align:center;
-	margin-top:25px;
-	margin-left:5%;
-	float:left;
-	width:20%;
-	transition-duration:1s;
-	box-sizing:border-box;
-}
-#cabecera_principal #seguinos p{
-	text-align:left;
+
+#cabecera_principal p{
 	font-family:arial,sans-serif;
 	font-size:23px;
-	width:100%;
-	float:left;
 }
-#cabecera_principal #seguinos p #folow{
-	float:right;
-	margin-top:-8px;
+#cabecera_principal p #folow{
 	margin-left:3px;
 	width:40px;
-}
+}*/
+
 
 @-webkit-keyframes folow{
   50% {
@@ -149,23 +148,21 @@ h1 {
   border: 0;
   }
 #menuizq{
-	overflow: hidden;
+	bottom:0;
 	height:100%;
-	position: fixed;
+	background-color:#d7b368;
 	font-size:20px;
 	font-family: 'Lato', sans-serif;
-	background-color:#d7b368;
-	margin-top:-80px;
+	overflow:hidden;
+	padding:0;
+	position:fixed;
+	top:0;
 	width:41px;
-	left:0px;
-	z-index: 2;
-	border: 2px solid #d7b368;
-	
-	
-	-moz-transition-duration:.3s;
-  	-webkit-transition-duration:.3s;
-  	-o-transition-duration:.3s;
-  	transition-duration:.3s;
+	z-index:2;
+	transition:width 0.25s;
+	-moz-transition:width 0.25s;
+	-o-transition:width 0.25s;
+	-webkit-transition:width 0.25s;
 
 }
 /*Estilo CSS*/
@@ -196,6 +193,9 @@ h1 {
 }
 #menuizq ul li{
 	width:210px;
+}
+#menuizq ul li span{
+	margin-right:10px;
 }
 
 /*Efecto del MENU*/
@@ -437,6 +437,7 @@ text-align: right;
 	float:left;
 	padding-top:10px;
 	width: 50%;
+	margin-left: 4%;
 	border-left: 3px solid black;
 }
 #cuerpo_registro1{
@@ -454,12 +455,12 @@ text-align: right;
 }
 #cuerpo_registro1 input{
  	background: url("/apa/img/user.png") no-repeat left top;
-	font: normal 14px Century Gothic, Helvetica, sans-serif;
-	border:2px solid lightgray;
-	border-radius:6px;
-	height: 35px;
-	width:80%;
-	padding-left:35px;
+ 	font: normal 14px Century Gothic, Helvetica, sans-serif;
+ 	border:2px solid lightgray;
+ 	border-radius:6px;
+ 	height: 35px;
+ 	width: 90%;
+ 	padding-left:35px;
 }
 #cuerpo_registro1 input.user{
 	background: white url("/apa/img/user.png") no-repeat left top;
@@ -503,7 +504,7 @@ text-align: right;
 	margin-top:10px;
 	border-left: 3px solid black;
 	float:left;
-	margin-left:5%;
+	margin-left: 4%;
 	width: 40%;
 	padding:30px;
 }
@@ -680,7 +681,7 @@ text-align: right;
 #info_contacto{
 	border-left: 3px solid black;
 	width:40%;
-	margin-left:30px;
+	margin-left: 4%;
 	float:left;
 	margin-top:20px;
 }
@@ -694,7 +695,7 @@ text-align: right;
 	text-align:justify;
 }
 #ventana_contacto{
-	margin-left:25px;
+	margin-left: 4%;
 	float:left;
 	border-left:3px solid black;
 	margin-top:20px;
@@ -711,7 +712,7 @@ text-align: right;
 #ventana_contacto #contacto input{
 	border:2px solid lightgray;
 	border-radius:6px;
-	height:45px;
+	height: 35px;
 	width:100%;
 	margin-top:5px;
 }
@@ -762,13 +763,13 @@ text-align: right;
 	margin-top:18px;
 }
 #enc_menu_a #menu1{
-	margin-left:5.5%;
 	background-color:#e1e1e1;
 	border-top:4px solid green;
 	float:left;
 	height:70px;
 	width:23%;
 	transition-duration:1s;
+	margin-left: 4%;
 }
 #enc_menu_a #menu1{
   display: inline-block;
@@ -938,7 +939,7 @@ text-align: right;
 	height:75%;
 }
 #cont_ifr iframe{
-	margin-left:5.5%;
+	margin-left: 4%;
 	border:0px;
 	background-color:white;
 	width:92%;
@@ -984,10 +985,10 @@ text-align: right;
 #cont_ifr_vet{
 	float:left;
 	margin-top:20px;
-	margin-left:10px;
-	width:69%;
+	margin-left: 25px;
+	width: 70%;
 	height:71%;
-	
+	box-sizing: border-box;
 }
 #cont_ifr_vet iframe{
 	border:0px;

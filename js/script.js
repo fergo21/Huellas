@@ -26,6 +26,6 @@ hoverpause : true, // pausa slide cuando el mouse esta encima
 
 // presentacion
 usecaptions : true, // muestra texto introducido en el tag title
-responsive : true // habilita modo responsive (beta)
+responsive : true, // habilita modo responsive (beta)
 });
 });

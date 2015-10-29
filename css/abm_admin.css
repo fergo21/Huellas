@@ -23,6 +23,7 @@ body{
     height:60px;
     padding-top:30px;
 }
+/*Las pestañas de los ABM*/
 .tabs{
     position: relative;
     min-height: 350px;
@@ -34,7 +35,8 @@ body{
 }
 .tab label {
 	font-family:Arial;
-    background: #eee;
+    background-color:darkgray;
+    color:white;
     padding: 10px;
     border: 1px solid #ccc;
     margin-left: -1px;
@@ -60,7 +62,9 @@ body{
     display:none;
 }
 .tab input[type=radio]:checked ~ label {
-    background: white;
+    background-color:white;
+    color:black;
+    font-weight:bold;
     border-bottom: 1px solid white;
     z-index: 2;
 }
@@ -74,3 +78,86 @@ img{
     margin:5px 10px 0 5px;
     float:left;
 }
+/*Alta*/
+#alta{
+	padding:20px;
+}
+#alta label{
+	color:black;
+	padding-left:0;
+	margin-left:10px;
+	font-family:arial;
+	background:none;
+	border:none;
+}
+#alta input{
+	border:2px solid gray;
+	border-radius:3px;
+	height:30px;
+}
+#alta #subir_foto{
+	border:none;
+}
+#alta select{
+	border:2px solid gray;
+	border-radius:3px;
+	height:30px;
+}
+#alta #boton_cargar{
+	width:20%;
+}#baja table{
+	font-family: Roboto, helvetica, arial, sans-serif;
+	background: white;	
+	border-radius:5px;
+	border-collapse: collapse;
+	height: 40px;
+	max-width: 600px;
+	width: 100%;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  	animation: float 5s infinite;
+}
+#baja table tr{
+	border-top: 1px solid #C1C3D1;
+	border-bottom: 1px solid #C1C3D1;
+	color:#666B85;
+	font-size:16px;
+	font-weight:normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+#baja table tr #ta-sup{
+	color:#D5DDE5;
+	background:#1b1e24;
+	border-bottom:4px solid #9ea7af;
+	border-right: 1px solid #343a45;
+	font-size:15px;
+	padding:5px;
+	text-align:left;
+	vertical-align:middle;
+}
+tr:hover td {
+	background:#4E5066;
+	color:#FFFFFF;
+	border-top: 1px solid #22262e;
+	border-bottom: 1px solid #22262e;
+}
+td {
+	background:#FFFFFF;
+	padding:5px;
+	text-align:left;
+	vertical-align:middle;
+	font-weight:100;
+	font-size:16px;
+	border-right: 1px solid #C1C3D1;
+}
+#baja tr td a{
+	color:black;
+	text-decoration:none;
+}
+#baja tr:hover a {
+	color:#FFFFFF;
+}
+iframe{
+	height:460px;
+}
+
+

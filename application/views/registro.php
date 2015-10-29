@@ -25,9 +25,10 @@
 					Ventajas de registrarse...
 				</p>		
 			</div>
+		<!--VENTANA DE REGISTRO DEL USUARIO ONLINE-->
 			<div id="ventana_registro">
 				<div id="registro">
-					<form action="huellas.php" method="post">
+					<?php form_open('index.php/Huellas/registrar')?>
 						<label>Nombre</label><br>
 						<input type="text" name="Nombre" size="25" placeholder="Nombre" autofocus required/>
 						<input type="text" name="apellido" size="25" placeholder="Apellido" required/><br>
